@@ -1,10 +1,9 @@
 {
   "apps": [{
-    "name": "etimity",
-    "script": "www/production.js",
-    "cwd": "D:\etimity",
-    "exec_mode": "cluster",
-    "instances": 0,
+    "name": "G:etimityG:etimityetimity",
+    "script": "production.js",
+    "cwd": "G:\etimity\etimity",
+    "exec_mode": "fork",
     "max_memory_restart": "1G",
     "autorestart": true,
     "node_args": [],
